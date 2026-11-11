@@ -1,0 +1,3 @@
+@media (min-width:768px){.logo{width:260px}.rec{width:104px;height:104px}.shelf{height:176px}.board{height:66px}.rec{top:30px}.plq{font-size:13.5px;max-width:130px}.slot.on .rec{transform:translateY(-18px)}}
+@media (max-height:520px){.hd{padding-top:6px}.logo{width:120px}.hint{display:none}.shelf{height:110px}.board{height:40px}.rec{width:62px;height:62px;top:16px}.plq{font-size:10px;bottom:5px;padding:3px}.slot.on .rec{transform:translateY(-10px)}.stage{width:max(200px,min(100%,calc((100dvh - 190px)*1.2496)))}}
+@media (prefers-reduced-motion:reduce){.spin,.slot.on .rec svg{animation-duration:14s}.ping,.swap,.wob{animation:none}}

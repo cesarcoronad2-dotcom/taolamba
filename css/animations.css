@@ -1,0 +1,9 @@
+@keyframes spin{to{transform:rotate(360deg)}}
+.spin{animation:spin 2.2s linear infinite}
+@keyframes drop{from{opacity:0;transform:perspective(900px) translateY(-60px) rotateX(60deg) scale(.7)}to{opacity:1;transform:none}}
+.swap{animation:drop .8s cubic-bezier(.2,.8,.2,1)}
+@keyframes leave{to{opacity:0;transform:perspective(900px) translateY(-60px) rotateX(55deg) scale(.8)}}
+.leave{animation:leave .6s ease-in forwards}
+@keyframes ping{0%{transform:scale(.94);opacity:.9}100%{transform:scale(1.12);opacity:0}}
+@keyframes wob{0%,100%{transform:rotate(0)}50%{transform:rotate(.45deg)}}
+.wob{animation:wob 2.2s ease-in-out infinite;transform-origin:938px 498px}

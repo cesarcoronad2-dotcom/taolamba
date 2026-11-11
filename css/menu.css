@@ -1,0 +1,7 @@
+.ptitle{margin:0;font:600 30px/1.05 'Fraunces',Georgia,serif;letter-spacing:-.01em}
+.rule{width:36px;height:3px;border-radius:2px;background:var(--mustard);margin:10px 0 4px}
+.item{padding:13px 0;border-bottom:1px solid rgba(235,227,215,.14)}
+.irow{display:flex;justify-content:space-between;align-items:baseline;gap:14px}
+.iname{margin:0;font:600 18px/1.25 'Fraunces',Georgia,serif}
+.iprice{font-weight:600;font-size:16px;color:var(--mustard);font-variant-numeric:tabular-nums;white-space:nowrap}
+.idesc{margin:4px 0 0;max-width:38ch;font-size:14px;line-height:1.45;color:rgba(235,227,215,.72)}
